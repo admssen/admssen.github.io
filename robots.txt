@@ -1,5 +1,3 @@
-# Сгенерировано https://pr-cy.ru/
-
 User-agent: *
 Allow: 
 Disallow: /style-assets/
