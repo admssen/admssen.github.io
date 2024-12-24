@@ -1,7 +1,8 @@
 * {box-sizing: border-box;}
 body{
-
+    background-color: black;
 	background-image: url("style-assets/index_bg.jpg");
+    
 	min-height: 500px;
 	background-attachment: fixed;
 	background-position: center;
@@ -18,6 +19,13 @@ th{
 }
 a {
   color: hotpink;
+}
+img{
+    border-radius: 8%;
+    max-width: 40%;
+    float: right;
+    padding: 16px;
+    
 }
 
 .header{
@@ -76,7 +84,6 @@ a {
 	color: #780606;
 }
 .product_cover{
-	border-radius: 4px;
 	max-height: 400px;
 	width: auto;
 }
@@ -98,4 +105,8 @@ a {
 	font-family: Georgia, serif;
 	
 	line-height: 1.5;
+}
+.intro{
+    color: #780606;
+    font-size: 12px;
 }
