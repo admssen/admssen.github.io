@@ -96,7 +96,7 @@ img{
     display: table;
 }
 .mention p{
-    font-size: 10px;
+    font-size: 14px;
     text-align: right;
     min-width: 40px;
 }
@@ -110,6 +110,12 @@ img{
     height: 340px;
     float: left;
 	max-width: 340px;
+}
+.bio{
+    float: left;
+    height: 440px;
+    float: left;
+	max-width: 440px;
 }
 .scary{
     background-image: url("style-assets/ff.jpg");
