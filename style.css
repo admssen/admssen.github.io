@@ -106,9 +106,9 @@ img{
 }
 .product_cover{
     float: left;
-    height: 400px;
+    height: 340px;
     float: left;
-	max-width: 400px;
+	max-width: 340px;
 }
 .scary{
     background-image: url("style-assets/ff.jpg");
