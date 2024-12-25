@@ -16,6 +16,7 @@ body{
 }
 th{
 	vertical-align: top;
+    width:30%;
 }
 a {
     color: #780606;
@@ -70,7 +71,6 @@ img{
 	width: 760px;
 	
 	background-color: #f4e0c7cc;
-	
 
 	max-width: 100%;
 	margin-top: 2%;
@@ -79,20 +79,36 @@ img{
 	
 	padding: 5%;
 	text-align: justify;
+    
+    display:grid;
 }
+
+.mention{
+    max-width: 100%;
+
+    text-align: right;
+    
+    margin: 5px;
+    height: 400px;
+    margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+    display: table;
+}
+.mention p{
+    text-align: right;
+    min-width: 40px;
+}
+
 .incomprehensible{
 	font-family: 'Brush Script MT', cursive;
 	color: #780606;
 }
 .product_cover{
-	max-height: 400px;
-	width: auto;
-}
-.to_witness{
-	width: 50%;
-}
-.splash{
-	max-height: 100%;
+    float: left;
+    height: 400px;
+    float: left;
+	max-width: 400px;
 }
 .scary{
     background-image: url("style-assets/ff.jpg");
@@ -111,3 +127,4 @@ img{
     color: #780606;
     font-size: 12px;
 }
+
