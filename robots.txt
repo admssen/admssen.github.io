@@ -1,5 +1,7 @@
 User-agent: *
-Allow: 
 Disallow: /style-assets/
 Disallow: /info-assets/
+Disallow: /cgi-bin/
+
+Sitemap: https://admssen.github.io/sitemap.xml
 
